@@ -10,4 +10,10 @@ public class StartMenu : MonoBehaviour
         // Load the game scene
         SceneManager.LoadScene(1);
     }
+
+        public void ShowSettings()
+    {
+        // Load the game scene
+        SceneManager.LoadScene(0);
+    }
 }
