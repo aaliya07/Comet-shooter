@@ -8,12 +8,12 @@ public class StartMenu : MonoBehaviour
     public void StartGame()
     {
         // Load the game scene
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Level 2");
     }
 
         public void ShowSettings()
     {
         // Load the game scene
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("Settings");
     }
 }

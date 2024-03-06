@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneLoader : MonoBehaviour
+public class TOS : MonoBehaviour
 {
-    public void LoadTOS()
+    public void GoToSettings()
     {
-        SceneManager.LoadScene("TOS"); // Make sure "TOS" matches the name of your TOS scene exactly.
+        SceneManager.LoadScene("Settings"); // Make sure "TOS" matches the name of your TOS scene exactly.
     }
 }

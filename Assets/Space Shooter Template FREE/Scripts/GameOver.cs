@@ -7,6 +7,6 @@ public class GameOver : MonoBehaviour
 
     public void PlayerDied()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("EndMenu");
     }
 }
